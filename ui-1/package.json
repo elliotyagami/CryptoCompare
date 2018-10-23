@@ -1,0 +1,21 @@
+{
+  "name": "demo-ui-js-server",
+  "version": "1.0.0",
+  "scripts": {
+    "run-local-client": "cd client && npm start",
+    "run-local-server": "nodemon server.js",
+    "run-prod-client": "cd client && npm start",
+    "run-prod-server": "nodemon server.js",
+    "local": "concurrently --kill-others-on-fail \"npm:run-local*\"",
+    "prod": "concurrently --kill-others-on-fail \"npm:run-prod*\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.5.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "node-fetch": "^2.1.2",
+    "nodemon": "^1.18.3",
+    "querystring": "^0.2.0"
+  }
+}

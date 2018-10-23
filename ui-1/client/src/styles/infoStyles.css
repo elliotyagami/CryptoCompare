@@ -1,0 +1,71 @@
+/* Styles for the Currency Info Pane */
+
+div.infoDisplayFlex
+{
+    display: flex;
+    padding: 0px;
+}
+
+div.infoDisplayFlex span
+{
+    text-align: center;
+    padding: 15px;
+}
+
+/* Symbol Span Styles */
+span.symbol
+{
+    flex: 2;
+    font-size: 30px;
+}
+
+span.nonSymbol
+{
+    border-left: 1px solid rgba(255,255,255,.1);
+    border-right: 1px solid rgba(255,255,255,.1);
+    flex: 1;
+    font-size: 20px;
+}
+
+/* Table Styles */
+table
+{
+    width: 100%;
+    overflow: scroll;
+}
+
+tr
+{
+    display: flex;
+}
+
+th
+{
+    flex: 1;
+    border-left:  1px solid rgba(255,255,255,.1);
+    font-weight: normal;
+}
+
+th.value
+{
+    color: rgb(220,230,250);
+}
+
+/* Log Entry Styles */
+.logEntry
+{
+    margin-top: 1px;
+    display: flex;
+    text-align: center;
+}
+
+.logEntry span
+{
+    margin: 0px;
+    flex: 1;
+}
+
+.logEntry span.dominant
+{
+    flex: 2.56;
+}

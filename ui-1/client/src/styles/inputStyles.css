@@ -1,0 +1,84 @@
+/* Styles for input elements on the Web App */
+
+/* Clickable Element Styles */
+.clickable
+{
+    transition-duration: .1s;
+    background-color: rgba(255, 255, 255, .1);
+
+}
+
+.clickable:hover, input:focus
+{
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.clickable:active
+{
+    background-color: rgba(255, 255, 255, .4);
+}
+
+/* Toggle Styles */
+.toggled2
+{
+    color: white;
+    background-color: rgb(80, 60, 96);
+}
+
+.toggled
+{
+    color: white;
+    background-color: rgb(40, 80, 90);
+}
+
+/* Menu Bar Styles */
+div.pad
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+div.pad span, div.pad a
+{
+    padding: 4px 8px 4px 8px;
+}
+
+input
+{
+    transition-duration: .1s;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    color : white;
+    width:20%;
+}
+
+/* Selector Menu Styles */
+div.item
+{
+    background-color: rgb(10,10,20);
+    border-top : 1px solid rgba(0, 0, 0, 0.3);
+    margin: 0px 5px;
+    text-align: center;
+    display: flex;
+}
+
+div.item .toggled
+{
+    border-left: 2px solid rgb(0,210,230);
+}
+
+div.item span
+{
+    flex: 1;
+    display: inline-flex;
+}
+
+div.item span span
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px 5px;
+}

@@ -1,0 +1,136 @@
+/* Primay Styles for The Web App */
+
+/* Body Styles */
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Courier New", Courier, monospace;
+    color : rgb(240,230,210);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  body {
+    -ms-overflow-style:none;
+  }
+
+#mainBlock
+{
+    display: flex;
+    background-color: rgb(15, 15, 20);
+    flex: 1;
+}
+
+/* All Purpose Display Styles */
+.centered
+{
+    text-align: center;
+}
+
+.flexDisplay
+{
+    display: flex;
+}
+
+.extremelyFlexible
+{
+    flex: 3;
+}
+
+.highlyFlexible
+{
+    flex: 1.65;
+}
+
+.flexible
+{
+    flex: 1;
+}
+
+.barelyFlexible
+{
+    flex: .1;
+}
+
+.inflexible
+{
+    flex: 0;
+}
+
+.lightlyPadded
+{
+    padding: 2px;
+}
+
+.lighter
+{
+    background-color: rgba(255, 255, 255, .05);
+}
+
+.darker
+{
+    background-color: rgba(0, 0, 0, .1);
+    outline-color: rgba(255, 255, 255, .2);
+}
+
+.outlined
+{
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+/* Turn Default Focus on All Elements */
+:focus
+{
+    outline: none;
+}
+
+/* Div Styles */
+div
+{
+    overflow: scroll;
+}
+
+div.inlineScrollable
+{
+   white-space: nowrap;
+   overflow: scroll;
+}
+
+div.paddedContainer
+{
+    padding: 5px;
+}
+
+.col
+{
+    padding: 0px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
+
+
+/* Turn Off Weighted Bold Text */
+b
+{
+    font-weight: normal;
+}
+
+/* Link Styles */
+a:link, a:visited, a:hover, a:active
+{
+    color: white;
+    text-decoration: unset;
+}

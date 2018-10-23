@@ -1,0 +1,22 @@
+{
+  "name": "compare-crypto",
+  "version": "1.0.0",
+  "description": "A client side web app for comparing and converting Cryptocurrencies. I coded this project to acquire a better understanding of web development and design.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node_modules/http-server/bin/http-server -p 80 src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

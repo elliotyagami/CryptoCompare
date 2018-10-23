@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- Style Sheets -->
+        <link rel="stylesheet" type="text/css" href="styles/inputStyles.css">
+        <link rel="stylesheet" type="text/css" href="styles/primaryStyles.css">
+        <link rel="stylesheet" type="text/css" href="styles/infoStyles.css">
+
+        <!-- Icon Link -->
+        <link rel="icon" type="image/png" href="icon.png" sizes="32x32">
+
+        <!-- Link View Point -->
+        <meta name="viewpoint" content="width=device-width, height=device-height, initial-scale=1.0">
+
+        <!-- Title -->
+        <title>CryptoCompare</title>
+
+        <!-- Include Scripts -->
+        <script type="text/javascript" src = "lib/jsonRequester.js"></script>
+        <script type="text/javascript" src = "lib/displayer.js"></script>
+        <script type="text/javascript" src = "lib/inputDisplayer.js"></script>
+        <script type="text/javascript" src = "lib/advancedInputDisplayer.js"></script>
+        <script type="text/javascript" src = "lib/tableDisplayer.js"></script>
+        <script type="text/javascript" src = "lib/infoDisplayer.js"></script>
+    </head>
+
+    <body id="body">
+        <!-- Append Title Bar -->
+        <script>appendTitleBar("body");</script>
+
+        <!-- Main Page Division -->
+        <div id="mainBlock" class= "paddedContainer flexible">
+
+            <!-- Append Menu Display -->
+            <script>appendInfoMenu("mainBlock");</script>
+
+        </div>
+    </body>
+</html>
