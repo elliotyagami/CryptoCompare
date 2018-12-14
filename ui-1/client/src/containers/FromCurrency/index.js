@@ -17,12 +17,8 @@ class MainBlock extends Component {
         return (
             <span className="flexible col">
                 <div className="pad" style={{ fontSize: '15px' }}>
-                    <span className="flexible">
-                        From
-                    </span>
-                    <span className="clickable">+</span>
                     <span className="toggled">
-                        A
+                        From
                     </span>
                     <input maxLength="5" className="clickable" style={{ fontSize: '15px' }} value={this.state.from} onChange={this.getFrom.bind(this)}/>
                     <span className=" clickable" onClick={()=> {  this.setState({'from': ''}); return this.props.addFromCurrency(this.state.from)}}>

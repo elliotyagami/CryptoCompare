@@ -6,9 +6,6 @@ class FromInput extends Component {
         return (
             <div className="flexible paddedContainer darker">
                 {this.props.fromCurrencies.map((ele,i) => (<div className="item darker" key={i}>
-                    <span style={{flex: '1 1 0%'}}>
-                        <span className="clickable">+</span>
-                    </span>
                     <span style={{flex: '2 1 0%'}} onClick={() => this.props.fromCurrency(ele) }>
                         <span className="clickable">{ele}</span>
                     </span>

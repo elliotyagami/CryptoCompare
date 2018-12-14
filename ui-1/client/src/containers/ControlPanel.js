@@ -6,8 +6,12 @@ class MainBlock extends Component {
     render() {
         return (
             <div className="highlyFlexible flexDisplay">
+            <div className="flexible flexDisplay">
             <FromCurrency/>
             <ToCurrency/>
+            </div>
+            <div className="flexible flexDisplay">
+            </div>
             <ConversionInfo/>
             </div>
         );
