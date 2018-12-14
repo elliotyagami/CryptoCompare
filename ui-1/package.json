@@ -4,7 +4,7 @@
   "scripts": {
     "run-local-client": "cd client && npm start",
     "run-local-server": "nodemon server.js",
-    "run-prod-client": "cd client && npm start",
+    "run-prod-client": "cd client && npm run build && npm run prod",
     "run-prod-server": "nodemon server.js",
     "local": "concurrently --kill-others-on-fail \"npm:run-local*\"",
     "prod": "concurrently --kill-others-on-fail \"npm:run-prod*\""

@@ -7,7 +7,10 @@ class MainBlock extends Component {
         return (
             <div className="flexible col">
                 <ControlPanel />
+                <div className="flexible flexDisplay">
                 <Console />
+                <div className="veryFlexible"></div>
+                </div>
             </div>
         );
     }

@@ -8,7 +8,7 @@
 
 }
 
-.clickable:hover, input:focus
+.inputClickable, .clickable:hover, input:focus
 {
     background-color: rgba(255, 255, 255, .2);
 }

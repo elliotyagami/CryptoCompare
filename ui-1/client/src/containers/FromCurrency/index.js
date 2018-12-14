@@ -20,7 +20,7 @@ class MainBlock extends Component {
                     <span className="toggled">
                         From
                     </span>
-                    <input maxLength="5" className="clickable" style={{ fontSize: '15px' }} value={this.state.from} onChange={this.getFrom.bind(this)}/>
+                    <input maxLength="5" className="inputClickable flexible" style={{ fontSize: '15px' }} value={this.state.from} onChange={this.getFrom.bind(this)}/>
                     <span className=" clickable" onClick={()=> {  this.setState({'from': ''}); return this.props.addFromCurrency(this.state.from)}}>
                         Add
                     </span>

@@ -12,11 +12,11 @@ export default (state = initialState.conversion, action) => {
             })
         case 'AddFromCurrency':
             return Object.assign({}, state, {
-                fromCurrency: [...state.fromCurrency, action.currency]
+                fromCurrency: [...state.fromCurrency, action.currency].sort()
             })
         case 'AddToCurrency':
             return Object.assign({}, state, {
-                toCurrency: [...state.toCurrency, action.currency]
+                toCurrency: [...state.toCurrency, action.currency].sort()
             })
         case 'RemoveFromCurrency':
             return Object.assign({}, state, {

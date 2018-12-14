@@ -50,6 +50,10 @@ body
     flex: 1.65;
 }
 
+.veryFlexible {
+    flex: 2;
+}
+
 .flexible
 {
     flex: 1;

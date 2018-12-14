@@ -9,7 +9,7 @@ class MainBlock extends Component {
     }
     render() {
         return (
-            <div className="flexible col darker">
+            <div className="extremelyFlexible col darker">
                 <div className="pad" style={{ fontSize: '15px' }}>
                     <span className="flexible">
                         Log
